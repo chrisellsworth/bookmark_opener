@@ -1,0 +1,56 @@
+{
+    "name": "Bookmark Opener",
+    "version": "1.0",
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    },
+    "commands": {
+        "bookmark1": {
+            "suggested_key": {
+                "default": "Alt+1"
+            },
+            "description": "Open Bookmark 1"
+        },
+        "bookmark2": {
+            "suggested_key": {
+                "default": "Alt+2"
+            },
+            "description": "Open Bookmark 2"
+        },
+        "bookmark3": {
+            "suggested_key": {
+                "default": "Alt+3"
+            },
+            "description": "Open Bookmark 3"
+        },
+        "bookmark4": {
+            "suggested_key": {
+                "default": "Alt+4"
+            },
+            "description": "Open Bookmark 4"
+        },
+        "bookmark5": {
+            "description": "Open Bookmark 5"
+        },
+        "bookmark6": {
+            "description": "Open Bookmark 6"
+        },
+        "bookmark7": {
+            "description": "Open Bookmark 7"
+        },
+        "bookmark8": {
+            "description": "Open Bookmark 8"
+        },
+        "bookmark9": {
+            "description": "Open Bookmark 9"
+        }
+    },
+    "permissions": [
+        "bookmarks",
+        "tabs"
+    ],
+    "manifest_version": 2
+}
